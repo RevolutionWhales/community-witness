@@ -1,0 +1,10 @@
+name: community_witness
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+description: Community Witness
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
