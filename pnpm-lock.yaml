@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@mirrorboards/namespace':
-        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005
-        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005
+        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110
+        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110
       '@mirrorboards/pulumi':
-        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@8da0005
-        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@8da0005(encoding@0.1.13)(typescript@5.5.4)
+        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110
+        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110(encoding@0.1.13)(typescript@5.5.4)
       '@ovhcloud/pulumi-ovh':
         specifier: 0.48.0
         version: 0.48.0(typescript@5.5.4)
@@ -56,16 +56,16 @@ packages:
     resolution: {integrity: sha512-XGSsWDweP80Fks16lwkAUIr54ICyBs6PsI4mpfTLQaWgEJRtY9xEV+PeyDpJ+sJEGZxqINlpmAwe/6tS1pP8Ng==}
     engines: {node: '>=10.3.0'}
 
-  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@8da0005':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@8da0005}
+  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110}
     version: 0.1.0
 
-  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005}
+  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110}
     version: 0.1.1
 
-  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@8da0005':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@8da0005}
+  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110}
     version: 0.1.1
 
   '@npmcli/agent@2.2.2':
@@ -1258,16 +1258,16 @@ snapshots:
 
   '@logdna/tail-file@2.2.0': {}
 
-  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@8da0005':
+  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110':
     dependencies:
       zod: 3.23.4
 
-  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005': {}
+  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110': {}
 
-  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@8da0005(encoding@0.1.13)(typescript@5.5.4)':
+  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110(encoding@0.1.13)(typescript@5.5.4)':
     dependencies:
-      '@mirrorboards-types/envelopes': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@8da0005
-      '@mirrorboards/namespace': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005
+      '@mirrorboards-types/envelopes': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110
+      '@mirrorboards/namespace': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110
       '@ovhcloud/pulumi-ovh': 0.48.0(typescript@5.5.4)
       '@pulumi/command': 0.11.1(typescript@5.5.4)
       '@pulumi/docker': 4.5.4(typescript@5.5.4)
