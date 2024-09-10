@@ -9,11 +9,9 @@
   },
   "dependencies": {
     "@pulumi/pulumi": "^3.113.0",
-    "@mirrorboards/pulumi": "https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@808a909",
-    "@mirrorboards/namespace": "https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@808a909",
+    "@mirrorboards/pulumi": "https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@8da0005",
+    "@mirrorboards/namespace": "https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@8da0005",
     "@pulumi/kubernetes": "4.11.0",
-    "@ovhcloud/pulumi-ovh": "0.48.0",
-    "zod": "3.23.4",
-    "envsafe": "2.0.3"
+    "@ovhcloud/pulumi-ovh": "0.48.0"
   }
 }
