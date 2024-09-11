@@ -1,3 +1,3 @@
-import { requireOVHEnvs } from "@mirrorboards/pulumi/src/blockchain/rsquared";
+import * as mirrorboards from "@mirrorboards/pulumi";
 
-export const ovh = requireOVHEnvs();
+export const ovh = mirrorboards.blockchain.rsquared.requireOVHEnvs();

@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@mirrorboards/namespace':
-        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110
-        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110
+        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3
+        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3
       '@mirrorboards/pulumi':
-        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110
-        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110(encoding@0.1.13)(typescript@5.6.2)
+        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3
+        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3(encoding@0.1.13)(typescript@5.6.2)
       '@ovhcloud/pulumi-ovh':
         specifier: 0.48.0
         version: 0.48.0(typescript@5.6.2)
@@ -23,6 +23,9 @@ importers:
       '@pulumi/pulumi':
         specifier: ^3.113.0
         version: 3.131.0(typescript@5.6.2)
+      envsafe:
+        specifier: 2.0.3
+        version: 2.0.3
     devDependencies:
       '@types/node':
         specifier: ^18
@@ -56,16 +59,16 @@ packages:
     resolution: {integrity: sha512-XGSsWDweP80Fks16lwkAUIr54ICyBs6PsI4mpfTLQaWgEJRtY9xEV+PeyDpJ+sJEGZxqINlpmAwe/6tS1pP8Ng==}
     engines: {node: '>=10.3.0'}
 
-  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110}
+  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3}
     version: 0.1.0
 
-  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110}
+  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3}
     version: 0.1.1
 
-  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110}
+  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3}
     version: 0.1.1
 
   '@npmcli/agent@2.2.2':
@@ -973,8 +976,8 @@ packages:
     resolution: {integrity: sha512-mRUWCc3KUU4w1jU8sGxICXH/gNS94DvI1gxqDvBzhj1JpcsimQkYiOJfwsPUykUI5ZaspFbSgmBLER8IrQ3tqw==}
     engines: {node: '>=12.0.0'}
 
-  pump@3.0.1:
-    resolution: {integrity: sha512-2ynnAmUu45oUSq51AQbeugLkMSKaz8FqVpZ6ykTqzOVkzXe8u/ezkGsYrFJqKZx+D9cVxoDrSbR7CeAwxFa5cQ==}
+  pump@3.0.2:
+    resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
 
   quick-lru@5.1.1:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
@@ -1258,16 +1261,16 @@ snapshots:
 
   '@logdna/tail-file@2.2.0': {}
 
-  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110':
+  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3':
     dependencies:
       zod: 3.23.4
 
-  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110': {}
+  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3': {}
 
-  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@d5fb110(encoding@0.1.13)(typescript@5.6.2)':
+  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3(encoding@0.1.13)(typescript@5.6.2)':
     dependencies:
-      '@mirrorboards-types/envelopes': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@d5fb110
-      '@mirrorboards/namespace': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@d5fb110
+      '@mirrorboards-types/envelopes': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3
+      '@mirrorboards/namespace': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3
       '@ovhcloud/pulumi-ovh': 0.48.0(typescript@5.6.2)
       '@pulumi/command': 0.11.1(typescript@5.6.2)
       '@pulumi/docker': 4.5.4(typescript@5.6.2)
@@ -1946,7 +1949,7 @@ snapshots:
 
   get-stream@5.2.0:
     dependencies:
-      pump: 3.0.1
+      pump: 3.0.2
 
   get-stream@6.0.1: {}
 
@@ -2359,7 +2362,7 @@ snapshots:
       '@types/node': 18.19.50
       long: 5.2.3
 
-  pump@3.0.1:
+  pump@3.0.2:
     dependencies:
       end-of-stream: 1.4.4
       once: 1.4.0
