@@ -1,0 +1,45 @@
+name: Refresh
+on:
+  workflow_dispatch:
+jobs:
+  refresh:
+    name: Refresh
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      # PULUMI_K8S_DELETE_UNREACHABLE: true
+      PULUMI_CONFIG_PASSPHRASE: MAKE_BLOCKCHAIN_GREAT_AGAIN
+      OVH_ENDPOINT: ${{ vars.OVH_ENDPOINT }}
+      OVH_PROJECT_ID: ${{ vars.OVH_PROJECT_ID }}
+      OVH_REGION: ${{ vars.OVH_REGION }}
+      OVH_APPLICATION_KEY: ${{ secrets.OVH_APPLICATION_KEY }}
+      OVH_APPLICATION_SECRET: ${{ secrets.OVH_APPLICATION_SECRET }}
+      OVH_CONSUMER_KEY: ${{ secrets.OVH_CONSUMER_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.5.0
+      - run: pnpm install
+      - name: pulumi preview
+        uses: pulumi/actions@v5
+        with:
+          command: preview
+          cloud-url: file://.
+          stack-name: organization/prod
+      - name: pulumi refresh
+        uses: pulumi/actions@v5
+        with:
+          command: refresh
+          cloud-url: file://.
+          stack-name: organization/prod
+      - name: pulumi output
+        uses: pulumi/actions@v5
+        with:
+          command: output
+          cloud-url: file://.
+          stack-name: organization/prod
+      - uses: stefanzweifel/git-auto-commit-action@v5
