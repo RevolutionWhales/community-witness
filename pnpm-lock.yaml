@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@mirrorboards/namespace':
-        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3
-        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3
+        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@71aacd4
+        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@71aacd4
       '@mirrorboards/pulumi':
-        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3
-        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3(encoding@0.1.13)(typescript@5.6.2)
+        specifier: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@71aacd4
+        version: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@71aacd4(encoding@0.1.13)(typescript@5.6.2)
       '@ovhcloud/pulumi-ovh':
         specifier: 0.48.0
         version: 0.48.0(typescript@5.6.2)
@@ -59,17 +59,17 @@ packages:
     resolution: {integrity: sha512-XGSsWDweP80Fks16lwkAUIr54ICyBs6PsI4mpfTLQaWgEJRtY9xEV+PeyDpJ+sJEGZxqINlpmAwe/6tS1pP8Ng==}
     engines: {node: '>=10.3.0'}
 
-  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3}
-    version: 0.1.0
+  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@71aacd4':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@71aacd4}
+    version: 0.1.2
 
-  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3}
-    version: 0.1.1
+  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@71aacd4':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@71aacd4}
+    version: 0.1.2
 
-  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3':
-    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3}
-    version: 0.1.1
+  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@71aacd4':
+    resolution: {tarball: https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@71aacd4}
+    version: 0.1.2
 
   '@npmcli/agent@2.2.2':
     resolution: {integrity: sha512-OrcNPXdpSl9UX7qPVRWbmWMCSXrcDa2M9DvrbOTj7ao1S4PlqVFYv9/yLKMkrJKZ/V5A/kDBC690or307i26Og==}
@@ -1261,16 +1261,16 @@ snapshots:
 
   '@logdna/tail-file@2.2.0': {}
 
-  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3':
+  '@mirrorboards-types/envelopes@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@71aacd4':
     dependencies:
       zod: 3.23.4
 
-  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3': {}
+  '@mirrorboards/namespace@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@71aacd4': {}
 
-  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@5da3ba3(encoding@0.1.13)(typescript@5.6.2)':
+  '@mirrorboards/pulumi@https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/pulumi@71aacd4(encoding@0.1.13)(typescript@5.6.2)':
     dependencies:
-      '@mirrorboards-types/envelopes': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@5da3ba3
-      '@mirrorboards/namespace': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@5da3ba3
+      '@mirrorboards-types/envelopes': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards-types/envelopes@71aacd4
+      '@mirrorboards/namespace': https://pkg.pr.new/mirrorboards/mirrorboards/@mirrorboards/namespace@71aacd4
       '@ovhcloud/pulumi-ovh': 0.48.0(typescript@5.6.2)
       '@pulumi/command': 0.11.1(typescript@5.6.2)
       '@pulumi/docker': 4.5.4(typescript@5.6.2)
